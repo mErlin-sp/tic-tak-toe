@@ -3,7 +3,7 @@ import os
 from settings import size
 
 GUIDE = """
-   TIC-TAC-TOE WITH AI -- HUMAN VS MACHINE
+   TIC-TAC-TOE
     
    HUMAN : X
    MACHINE : O
@@ -62,7 +62,7 @@ def _print_lines(grid):
 
 
 def render(grid):
-    # clear the screen to print at the same place
+    # Clear the screen to print at the same place
     os.system(CLEAR)
     print(GUIDE)
     print("     ", end="")
